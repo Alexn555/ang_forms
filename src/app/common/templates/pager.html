@@ -1,0 +1,6 @@
+<!-- pager -->
+<ul *ngIf="pager.pages && pager.pages.length" class="pagination">
+    <li *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+        <a (click)="setPage(page)">{{page}}</a>
+    </li>
+</ul>
