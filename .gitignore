@@ -2,7 +2,5 @@
 node_modules/
 # Backup
 backup/
-# WebStorm files
-.idea
 # Manual
 manual/
