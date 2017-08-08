@@ -7,6 +7,7 @@ Written in Typescript
 
 Contains:
    src/   - all styling files
+   
      app /
      
 	     common / common libraries, utilities
