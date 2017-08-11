@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
     <h1>{{title}}</h1>
     <top-nav></top-nav>
     <router-outlet></router-outlet>
-        <top-nav></top-nav>
     <footer-component></footer-component>
   `,
     styleUrls: ['./app.component.css'],
